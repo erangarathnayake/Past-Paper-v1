@@ -1,0 +1,153 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A/L Paper Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header class="navbar">
+        <div class="logo">A/L Paper Hub</div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#subjects">Subjects</a>
+            <a href="#papers">Papers</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="aph-hero">
+            <div class="aph-hero__content">
+                <p class="aph-hero__eyebrow">YOUR FUTURE STARTS HERE</p>
+
+                <h1 class="aph-hero__title">
+                    Prepare Smart.
+                    <span>Achieve More.</span>
+                </h1>
+
+                <p class="aph-hero__description">
+                    Find A/L past papers, model papers and marking
+                    schemes for your exam preparation.
+                </p>
+
+                <a class="aph-hero__button" href="#subjects">
+                    Explore Subjects <span aria-hidden="true">→</span>
+                </a>
+
+                <div class="aph-hero__stats">
+                    <div class="aph-hero__stat">
+                        <strong>03</strong>
+                        <span>Main Subjects</span>
+                    </div>
+
+                    <div class="aph-hero__stat">
+                        <strong>A/L</strong>
+                        <span>Exam Preparation</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Subjects Section -->
+        <section class="subjects" id="subjects">
+            <div class="section-heading">
+                <p class="tagline">CHOOSE YOUR SUBJECT</p>
+                <h2>Explore <span>Subjects</span></h2>
+                <p>Everything you need to prepare for your A/L exams.</p>
+            </div>
+
+            <div class="subject-grid">
+                <article class="subject-card maths">
+                    <div class="subject-icon">∑</div>
+                    <h3>Combined Mathematics</h3>
+                    <p>Past papers, model papers and marking schemes.</p>
+                    <a href="./maths.html">Explore Papers →</a>
+                </article>
+
+                <article class="subject-card physics">
+                    <div class="subject-icon">⚛</div>
+                    <h3>Physics</h3>
+                    <p>Practice questions and improve your understanding.</p>
+                    <a href="./physics.html">Explore Papers →</a>
+                </article>
+
+                <article class="subject-card chemistry">
+                    <div class="subject-icon">⚗</div>
+                    <h3>Chemistry</h3>
+                    <p>Revise theory and practise exam questions.</p>
+                    <a href="./chem.html">Explore Papers →</a>
+                </article>
+            </div>
+        </section>
+
+        <!-- Papers Section -->
+        <section class="papers" id="papers">
+            <div class="section-heading">
+                <p class="tagline">YOUR EXAM PREPARATION</p>
+                <h2>Latest <span>Papers</span></h2>
+                <p>Find papers and practise at your own pace.</p>
+            </div>
+
+            <div class="paper-toolbar">
+                <input
+                    type="text"
+                    id="paperSearch"
+                    placeholder="Search papers..."
+                    aria-label="Search papers"
+                >
+
+                <select id="subjectFilter" aria-label="Filter by subject">
+                    <option value="all">All Subjects</option>
+                    <option value="maths">Combined Mathematics</option>
+                    <option value="physics">Physics</option>
+                    <option value="chemistry">Chemistry</option>
+                </select>
+
+        
+            </div>
+
+            <div class="paper-grid">
+                <article class="paper-card" data-subject="maths" data-type="past">
+                    <span class="paper-badge">PAST PAPER</span>
+                    <h3>Combined Mathematics</h3>
+                    <p>2026 · A/L Examination</p>
+                    <button type="button" class="paper-btn" onclick="window.open('https://pastpapers.wiki/wp-admin/admin-ajax.php?juwpfisadmin=false&action=wpfd&task=file.download&wpfd_category_id=37759&wpfd_file_id=101452&token=&preview=1', '_blank')">PDF OPEN</button>
+                </article>
+
+                <article class="paper-card" data-subject="physics" data-type="past">
+                    <span class="paper-badge">PAST PAPER</span>
+                    <h3>Physics</h3>
+                    <p>2026 · A/L Examination</p>
+                    <button type="button" class="paper-btn">PDF OPEN</button>
+                </article>
+
+                <article class="paper-card" data-subject="chemistry" data-type="past">
+                    <span class="paper-badge">PAST PAPER</span>
+                    <h3>Chemistry</h3>
+                    <p>2026 · A/L Examination</p>
+                    <button type="button" class="paper-btn">PDF OPEN</button>
+                </article>
+
+
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="site-footer__inner">
+            <p class="site-footer__brand">A/L Paper Hub</p>
+            <p class="site-footer__brand">Eranga Rathnayake</p>
+            <p class="site-footer__copyright">
+                © 2026 A/L Paper Hub. All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
