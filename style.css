@@ -103,6 +103,7 @@ nav a:hover {
 .aph-hero__button:hover {
     background: #0873dc;
     transform: translateY(-3px);
+    
 }
 
 .aph-hero__stats {
@@ -183,9 +184,7 @@ nav a:hover {
 .subject-card:hover {
     transform: translateY(-20px);
     border-color: #38bdf8;
-
-        transform: translateY(-20px) scale(1.03);
-
+    transform: scale(1.1);
     box-shadow:
         0 20px 40px rgba(0, 0, 0, 0.35),
         0 0 20px rgba(56, 189, 248, 0.18);
@@ -291,7 +290,7 @@ nav a:hover {
 
 .paper-card:hover {
 
-    transform: translateY(-15px) scale(1.03);
+    transform: scale(1.1);
 
     box-shadow:
         0 20px 40px rgba(0, 0, 0, 0.35),
@@ -341,7 +340,7 @@ nav a:hover {
     background: #168bff;
     color: #ffffff;
     border-color: #38bdf8;
-    transform: translateY(-5px);
+    transform: scale(1.1);
 }
 
 .paper-btn:focus-visible {
@@ -350,7 +349,7 @@ nav a:hover {
 }
 
 .paper-btn:active {
-    transform: scale(0.98);
+    transform: scale(1.1);
     box-shadow: 0 5px 10px rgba(56, 189, 248);
 }
 
@@ -477,7 +476,7 @@ nav a:hover {
     background: #168bff;
     color: #ffffff;
     border-color: #168bff;
-    transform: translateY(-2px);
+    transform: scale(1.1);
 }
 
 .back-home-btn:focus-visible {
